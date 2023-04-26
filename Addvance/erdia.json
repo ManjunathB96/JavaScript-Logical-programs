@@ -1,0 +1,150 @@
+{
+  "users": {
+    "bsonType": "object",
+    "required": ["fullName", "role", "email", "password"],
+    "properties": {
+      "fullName": {
+        "bsonType": "string"
+      },
+      "role": {
+        "bsonType": "string"
+      },
+      "email": {
+        "bsonType": "string"
+      },
+      "password": {
+        "bsonType": "string"
+      }
+    }
+  },
+  "batch": {
+    "bsonType": "object",
+    "required": [
+      "createdBy",
+      "batchName",
+      "startDate",
+      "endDate",
+      "batchTechType",
+      "practiceHead",
+      "mainMentor",
+      "engineers"
+    ],
+    "properties": {
+      "createdBy": {
+        "bsonType": "string"
+      },
+      "batchName": {
+        "bsonType": "string"
+      },
+      "startDate": {
+        "bsonType": "objectId"
+      },
+      "endDate": {
+        "bsonType": "string"
+      },
+      "batchTechType": {
+        "bsonType": "string"
+      },
+      "practiceHead": {
+        "bsonType": "string"
+      },
+      "mainMentor": {
+        "bsonType": "string"
+      },
+      "engineers": {
+        "bsonType": "string"
+      }
+    }
+  },
+  "batch/addEngineer": {
+    "bsonType": "object",
+    "required": ["CIC_Id", "fullName", "phoneNumber", "email", "status"],
+    "properties": {
+      "CIC_Id": {
+        "bsonType": "string"
+      },
+      "fullName": {
+        "bsonType": "string"
+      },
+      "phoneNumber": {
+        "bsonType": "objectId"
+      },
+      "email": {
+        "bsonType": "string"
+      },
+      "status": {
+        "bsonType": "string"
+      }
+    }
+  },
+  "ticket": {
+    "bsonType": "object",
+    "required": [
+      "raisedBy",
+      "Ticket_Id",
+      "CIC_Id",
+      "engineerName",
+      "ticketName",
+      "issueType",
+      "description",
+      "additionInfo",
+      "status",
+      "assignedTo",
+      "file",
+      "followUp"
+    ],
+    "properties": {
+      "createdBy": {
+        "bsonType": "string"
+      },
+      "batchName": {
+        "bsonType": "string"
+      },
+      "startDate": {
+        "bsonType": "objectId"
+      },
+      "engineerName": {
+        "bsonType": "string"
+      },
+      "ticketName": {
+        "bsonType": "string"
+      },
+      "issueType": {
+        "bsonType": "string"
+      },
+      "description": {
+        "bsonType": "string"
+      },
+      "additionInfo": {
+        "bsonType": "string"
+      },
+      "status": {
+        "bsonType": "string"
+      },
+      "assignedTo": {
+        "bsonType": "string"
+      },
+      "file": {
+        "bsonType": "string"
+      },
+      "followUp": {
+        "bsonType": "string"
+      }
+    }
+  },
+  "ticket/addFollowup": {
+    "bsonType": "object",
+    "required": ["followupBy", "description", "date"],
+    "properties": {
+      "followupBy": {
+        "bsonType": "string"
+      },
+      "description": {
+        "bsonType": "string"
+      },
+      "date": {
+        "bsonType": "objectId"
+      }
+    }
+  }
+}
