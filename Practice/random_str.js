@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 // function randomeCode(str) {
 //   let randomString = "";
@@ -21,7 +20,6 @@
 // export {sayHi, sayBye}; // a list of exported variables
 // */
 
-=======
 
 // function randomeCode(str) {
 //   let randomString = "";
@@ -44,4 +42,3 @@
 // export {sayHi, sayBye}; // a list of exported variables
 // */
 
->>>>>>> 4ec36c39a4083795e3e20b54e0f7a8742bc393aa

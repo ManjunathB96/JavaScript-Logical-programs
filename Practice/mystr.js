@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 //const  code = require('./random_str')
 
 //  const randomStr=require('./random_str')
@@ -25,7 +24,6 @@ import * as say from './say.js';
 
 say.sayHi('John');
 say.sayBye('John');
-=======
 //const  code = require('./random_str')
 
 //  const randomStr=require('./random_str')
@@ -53,5 +51,4 @@ import * as say from './say.js';
 
 say.sayHi('John');
 say.sayBye('John');
->>>>>>> 4ec36c39a4083795e3e20b54e0f7a8742bc393aa
 */

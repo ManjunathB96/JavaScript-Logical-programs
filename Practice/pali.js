@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // const str="ABBA"
 
 // let  arrStr=str.split('').reverse().join('');
@@ -53,7 +52,6 @@ function reveseword(str) {
   console.log(count);
    // console.log(newStr.join(' '));   //aaaabeghijlmnnstuv
 }
-=======
 // const str="ABBA"
 
 // let  arrStr=str.split('').reverse().join('');
@@ -79,7 +77,7 @@ function reveseword(str) {
 // const res=palindrome('abba');
 // console.log(res);
 
-let str = "ManjunatH s belagavi";
+//let str = "ManjunatH s belagavi";
 // const result = reveseword(str);
 console.log(reveseword(str));
 function reveseword(str) {
@@ -108,4 +106,3 @@ function reveseword(str) {
   console.log(count);
    // console.log(newStr.join(' '));   //aaaabeghijlmnnstuv
 }
->>>>>>> 4ec36c39a4083795e3e20b54e0f7a8742bc393aa
