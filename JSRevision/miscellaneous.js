@@ -22,3 +22,9 @@ const isLeapYear =
     ? "leap year"
     : "not leapyear";
 console.log("file: test.js:22 => isLeapYear:", isLeapYear);
+
+
+
+const variable = []; //null [] "" 0 NaN undefined
+const isTrue = variable ? true : false;
+console.log("file: test.js: => isTrue:", isTrue);
